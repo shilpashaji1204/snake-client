@@ -17,14 +17,14 @@ const connect = function () {
   conn.on("connect", () => {
     console.log("Successfully connected to game server");
     conn.write("Name: SS5")
-    /* setTimeout(() => {
+     setTimeout(() => {
       conn.write("Move: up")
     setInterval(() => {
     conn.write("Move: right")
   }, 50);
 }, 50);
   
-*/ 
+
 });
   return conn;
 };

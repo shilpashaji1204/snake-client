@@ -9,6 +9,8 @@ const handleUserInput = function(key) {
       connection.write('Move: down');
     } else if (key === 'd') {
       connection.write('Move: right');
+    }  else if (key === '1') {
+    conn.write('Say: Hi!');
     }
   };
   
